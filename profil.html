@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profil Saya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGASI -->
+  <header class="topbar">
+    <a href="#profile" class="logo">Jasmine Anaya Putri</a>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#sekolah">Sekolah</a></li>
+        <li><a href="#jadwal">Jadwal Sekolah</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#materi">Materi</a></li>
+        <li><a href="#film">Film</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PROFILE -->
+    <section id="profile" class="hero">
+      <div class="hero-text">
+        <p class="kicker">Halo, saya</p>
+        <h1> Jasmine</h1>
+        <p class="lead">Siswa kelas X yang suka belajar hal baru, membuat sesuatu yang baru, dan mencoba hal baru.</p>
+        <a class="btn" href="#portfolio">Lihat portfolio</a>
+      </div>
+      <div class="hero-card">
+        <div class="foto" role="img"><img src="foto.jpeg" alt="foto"></div>
+        <dl>
+          <dt>Tempat, tanggal lahir</dt><dd>Bogor, 3 Juli 2010</dd>
+          <dt>Alamat</dt><dd>Tlajung udik, Gunung Putri</dd>
+          <dt>Hobi</dt><dd>Membaca, Menyanyi, Melukis</dd>
+          <dt>Email</dt><dd>jasmineanayaputri@gmail.com</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- SEKOLAH -->
+    <section id="sekolah" class="section">
+      <h2>Sekolah</h2>
+      <div class="two-col">
+        <div>
+          <h3>SMK Negeri 1 Gunung Putri</h3>
+          <p>Jl. Barokah No. 06, Kecamatan Gunung Putri. Sekolah ini memiliki banyak kegiatan ekstrakurikuler yang menarik dan fasilitas yang lengkap.</p>
+          <ul class="plain">
+            <li>Kelas: X RPL 3</li>
+            <li>NIS: 12345</li>
+            <li>Wali kelas: Bu Novi CH, S.Pd.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Kegiatan</h3>
+          <ul class="plain">
+            <li>Ekstrakurikuler IT</li>
+            <li>Pengurus OSIS seksi Teknologi</li>
+            <li>Peserta lomba cerdas cermat tingkat sekolah</li>
+            <li>Main</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- JADWAL SEKOLAH -->
+    <section id="jadwal" class="section">
+      <h2>Jadwal Sekolah</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>HARI</th><th>JAM</th><th>MATA PELAJARAN</th><th>RUANG</th></tr>
+          </thead>
+          <tbody>
+            <tr><td rowspan="13"><strong>SENIN</strong></td><td>06.30 – 07.30</td><td>Upacara</td><td>LP.3 Roda</td></tr>
+            <tr><td>07.30 – 08.10</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>08.10 – 08.50</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>08.50 – 09.30</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr class="break"><td>09.30 – 09.45</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>09.45 – 10.25</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>10.25 – 11.05</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>11.05 – 11.45</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr class="break"><td>11.45 – 12.20</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>12.20 – 13.00</td><td>APEL-TR</td><td>RT 13</td></tr>
+            <tr><td>13.00 – 13.40</td><td>APEL-TR</td><td>RT 13</td></tr>
+            <tr><td>13.40 – 14.20</td><td>B.JEPANG-RS</td><td>RT 13</td></tr>
+            <tr><td>14.20 – 15.00</td><td>B.JEPANG-RS</td><td>RT 13</td></tr>
+
+            <tr><td rowspan="13"><strong>SELASA</strong></td><td>06.30 – 07.15</td><td>Dhuha</td><td>LP.3 Roda</td></tr>
+            <tr><td>07.15 – 07.55</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>07.55 – 08.35</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>08.35 – 09.15</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>09.15 – 09.55</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr class="break"><td>09.55 – 10.10</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>10.10 – 10.50</td><td>INF-EM</td><td>RT 13</td></tr>
+            <tr><td>10.50 – 11.30</td><td>INF-EM</td><td>RT 13</td></tr>
+            <tr><td>11.30 – 12.10</td><td>IPAS-TR</td><td>RT 13</td></tr>
+            <tr class="break"><td>12.10 – 13.00</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>13.00 – 13.40</td><td>IPAS-TR</td><td>RT 13</td></tr>
+            <tr><td>13.40 – 14.20</td><td>IPAS-TR</td><td>RT 13</td></tr>
+            <tr><td>14.20 – 15.00</td><td>B.JEPANG-RS</td><td>RT 13</td></tr>
+
+            <tr><td rowspan="13"><strong>RABU</strong></td><td>06.30 – 07.15</td><td>Dhuha</td><td>LP.3 Roda</td></tr>
+            <tr><td>07.15 – 07.55</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>07.55 – 08.35</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>08.35 – 09.15</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>09.15 – 09.55</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr class="break"><td>09.55 – 10.10</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>10.10 – 10.50</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>10.50 – 11.30</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>11.30 – 12.10</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr class="break"><td>12.10 – 13.00</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>13.00 – 13.40</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>13.40 – 14.20</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>14.20 – 15.00</td><td>DKK-HS</td><td>RT 13</td></tr>
+
+            <tr><td rowspan="13"><strong>KAMIS</strong></td><td>06.30 – 07.15</td><td>Dhuha</td><td>LP.3 Roda</td></tr>
+            <tr><td>07.15 – 07.55</td><td>INF-EM</td><td>RT 13</td></tr>
+            <tr><td>07.55 – 08.35</td><td>INF-EM</td><td>RT 13</td></tr>
+            <tr><td>08.35 – 09.15</td><td>INF-EM</td><td>RT 13</td></tr>
+            <tr><td>09.15 – 09.55</td><td>BK-AD</td><td>RT 13</td></tr>
+            <tr class="break"><td>09.55 – 10.10</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>10.10 – 10.50</td><td>IPAS-TR</td><td>RT 13</td></tr>
+            <tr><td>10.50 – 11.30</td><td>IPAS-TR</td><td>RT 13</td></tr>
+            <tr><td>11.30 – 12.10</td><td>IPAS-TR</td><td>RT 13</td></tr>
+            <tr class="break"><td>12.10 – 13.00</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>13.00 – 13.40</td><td>IPAS-TR</td><td>RT 13</td></tr>
+            <tr><td>13.40 – 14.20</td><td>IPAS-TR</td><td>RT 13</td></tr>
+            <tr><td>14.20 – 15.00</td><td>IPAS-TR</td><td>RT 13</td></tr>
+
+            <tr><td rowspan="13"><strong>JUMAT</strong></td><td>06.30 – 07.30</td><td>Dhuha</td><td>LP.3 Roda</td></tr>
+            <tr><td>07.30 – 08.10</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>08.10 – 08.50</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>08.50 – 09.30</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr class="break"><td>09.30 – 09.45</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>09.45 – 10.25</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>10.25 – 11.05</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>11.05 – 11.45</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr class="break"><td>11.45 – 12.40</td><td>ISTIRAHAT</td><td colspan="4"></td></tr>
+            <tr><td>12.40 – 13.20</td><td>DKK-HS</td><td>RT 13</td></tr>
+            <tr><td>13.20 – 14.00</td><td>DKK-HS</td><td>RT 13</td></tr>
+
+            
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
+      <h2>Portfolio</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Website Profil Sederhana</h3>
+          <p>Halaman profil pribadi dengan HTML dan CSS.</p>
+          <span class="tag">HTML</span> <span class="tag">CSS</span>
+        </article>
+        <article class="card">
+          <h3>Data base</h3>
+          <p>Mengolah database sederhana menggunakan XAMPP .</p>
+          <span class="tag">XAMPP</span>
+        </article>
+        <article class="card">
+          <h3>Kalkultor Phyton</h3>
+          <p>Kalkulator sederhana berbasis terminal.</p>
+          <span class="tag">Phyton</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- MATERI -->
+    <section id="materi" class="section">
+      <h2>Materi</h2>
+      <ul class="materi">
+        <li>
+          <div><strong>HTML dan CSS</strong><span>Kinematika: GLB dan GLBB</span></div>
+          <a href="https://docs.google.com/presentation/d/1FHlOD6JmKUSLL-KaY9VQ_jBIcfmDUikn3Jpm2zhu-yM/edit?usp=sharing">Unduh</a>
+        </li>
+        <li>
+          <div><strong>Informatika</strong><span>Crimping</span></div>
+          <a href="https://asani.co.id/blog/crimping-adalah/">Unduh</a>
+        </li>
+        <li>
+          <div><strong>IPAS</strong><span>Perubahan ligkungan</span></div>
+          <a href="https://projekipas.com/materi-perubahan-lingkungan-kelas-10-kurikulum-merdeka/">Unduh</a>
+        </li>
+        <li>
+          <div><strong>B.Jepang</strong><span>Huruf hiragana</span></div>
+          <a href="https://jepang.org/tutorial/huruf-hiragana-dan-cara-penulisannya">Unduh</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="film" class="section">
+      <h2>Film</h2>
+      <div class="movie-grid">
+        <div class="movie-card">
+          <img src="marnie.png" alt="poster film" class="movie-poster">
+          <div class="movie-info">
+            <div><span>When Marnie Was There</span></div>
+            <a href="https://id.wikipedia.org/wiki/Omoide_no_Marnie"><span class="tag">Sinopsis</span></a>
+          </div>
+         </div>
+
+         <div class="movie-card">
+          <img src="dead.png" alt="poster film" class="movie-poster">
+          <div class="movie-info">
+            <div><span>Dead Poets Society</span></div>
+            <a href="https://id.wikipedia.org/wiki/Dead_Poets_Society"><span class="tag">Sinopsis</span></a>
+          </div>
+         </div>
+
+         <div class="movie-card">
+          <img src="miracle.png" alt="poster film" class="movie-poster">
+          <div class="movie-info">
+            <div><span>Miracle in Cell No. 7</span></div>
+            <a href="https://id.wikipedia.org/wiki/Miracle_in_Cell_No._7_(film_2022)"><span class="tag">Sinopsis</span></a>
+          </div>
+         </div>
+
+         <div class="movie-card">
+          <img src="500.png" alt="poster film" class="movie-poster">
+          <div class="movie-info">
+            <div><span>500 Days Of Summer</span></div>
+            <a href="https://id.wikipedia.org/wiki/500_Days_of_Summer"><span class="tag">Sinopsis</span></a>
+          </div>
+         </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Jasmine Anaya Putri</p>
+  </footer>
+
+</body>
